@@ -14,6 +14,14 @@ $(document).ready(function(){
 
   var newBeginning = charLength / 2;
 
-  var newsentence = alert("" + saySomething.charAt(newBeginning) + saySomething + firstResponse);
+  var newsentence = (saySomething.charAt(newBeginning) + saySomething + firstResponse);
+
+  $(".image1").click(function () {
+    alert(saySomething);
+  });
+
+  $(".image2").click(function () {
+    alert(newsentence);
+  });
 
 });
